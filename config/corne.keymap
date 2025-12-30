@@ -28,7 +28,7 @@
 # define MUTE C_MUTE
 # define VOLUP C_VOL_UP
 # define PREV C_PREV
-# define PP PLAY_PAUSE
+# define PP C_PLAY_PAUSE
 # define NEXT C_NEXT
 # define DEV0 BT_SEL 0
 # define DEV1 BT_SEL 1
