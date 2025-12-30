@@ -19,11 +19,11 @@
 # define MSC_LAYER &mo 5
 
 # define NTLD RA(N)
-# define DQT RS(RA(SQT))
-# define SQT RA(SQT)
+# define CDQT RS(RA(SQT))
+# define CSQT RA(SQT)
 # define TLD RS(RA(GRAVE))
 # define BTICK RA(GRAVE)
-# define CARET RS(RA(N6))
+# define CCARET RS(RA(N6))
 # define VOLDN C_VOL_DN
 # define MUTE C_MUTE
 # define VOLUP C_VOL_UP
@@ -220,7 +220,7 @@
                         bindings = <
                 //╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮   ╭───────────┬───────────┬───────────┬───────────┬───────────┬───────────╮
                 //│  ESC      │  "        │  '        │  /        │  \        │  ~        │   │  ^        │  !        │  =        │  &        │   |       │ *         │
-                   &kp ESC     &kp DQT     &kp SQT     &kp FSLH    &kp BSLH    &kp TLD         &kp CARET   &kp EXCL    &kp EQUAL   &kp AMPS    &kp PIPE    &kp ASTRK 
+                   &kp ESC     &kp CDQT    &kp CSQT    &kp FSLH    &kp BSLH    &kp TLD         &kp CCARET  &kp EXCL    &kp EQUAL   &kp AMPS    &kp PIPE    &kp ASTRK 
                 //├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤   ├───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤
                 //│  SUPER    │  :        │  ;        │  ,        │  .        │  @        │   │  _        │  (        │  {        │  <        │  [        │  /        │
                    &kp LGUI    &kp COLON   &kp SEMI    &kp COMMA   &kp DOT     &kp AT          &kp UNDER   &kp LPAR    &kp LBRC    &kp LT      &kp LBKT    &kp FSLH
